@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.0.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.mjs",
+    "gql": "graphql-codegen --config codegen.yml",
+    "gql:operations": "graphql-codegen --config codegen-operations.yml",
+    "gql:react-apollo": "graphql-codegen --config codegen-react-apollo.yml"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.3.0",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@graphql-codegen/typescript": "^2.4.1",
+    "@graphql-codegen/typescript-operations": "^2.2.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.2.2",
+    "@types/cors": "^2.8.12"
+  }
+}
