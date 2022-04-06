@@ -1,6 +1,6 @@
 # a-lovely-graphql-server
 
-> See the [Presentation Slides](https://1drv.ms/p/s!AvUc1cvPrJnWvtI2Ha9qbYakUWSBUg?e=E7N6p3) for context!
+Demonstrates GraphQL with Apollo code generation. ✨
 
 ## Usage
 

@@ -3,7 +3,7 @@ import express from "express";
 import { graphqlHTTP } from "express-graphql";
 import { buildSchema } from "graphql";
 
-import { jokes } from "./data.mjs";
+import { jokes } from "./data.js";
 
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
